@@ -523,6 +523,7 @@ h6,
   display: flex;
   align-items: center;
   gap: 1rem;
+  max-width: 300px;
 }
 
 #hero .btn-success:hover {
@@ -1045,11 +1046,14 @@ section {
   border-top: 3px solid #eb5d1e;
   border-bottom: 3px solid #eb5d1e;
   padding: 30px;
-  background: #fff;
+  background: #111;
   width: 100%;
   box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
 }
-
+.information {
+  display: flex;
+  gap: 1rem;
+}
 .contact .info i {
   font-size: 20px;
   color: #eb5d1e;
@@ -1069,7 +1073,7 @@ section {
   font-size: 22px;
   font-weight: 600;
   margin-bottom: 5px;
-  color: #7a6960;
+  color: #eb5d1e;
 }
 
 .contact .info p {
@@ -1100,6 +1104,7 @@ section {
   height: 36px;
   transition: 0.3s;
   margin-right: 10px;
+  text-decoration: none;
 }
 
 .contact .info .social-links a:hover {
@@ -1440,4 +1445,89 @@ section {
   align-items: center;
   flex-direction: column;
   gap: 2rem;
+}
+
+.contact-bg {
+  width: 100%;
+  min-height: 100vh;
+  position: relative;
+
+  /* Imagem utilizada como background */
+  background-image:
+    linear-gradient(
+      90deg,
+      rgba(0, 0, 0, 0.78) 0%,
+      rgba(0, 0, 0, 0.58) 40%,
+      rgba(0, 0, 0, 0.35) 70%,
+      rgba(0, 0, 0, 0.5) 100%
+    ),
+    url("/assets/img/bg-manutencao-notebook-cta.webp");
+
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+}
+.domicilio-cta {
+  width: 100%;
+  min-height: 100vh;
+  position: relative;
+
+  /* Imagem utilizada como background */
+  background-image:
+    linear-gradient(
+      90deg,
+      rgba(0, 0, 0, 0.78) 0%,
+      rgba(182, 159, 159, 0.58) 40%,
+      rgba(0, 0, 0, 0.35) 70%,
+      rgba(0, 0, 0, 0.5) 100%
+    ),
+    url("/assets/img/bg-manutencao-domicilio-cta.webp");
+
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+}
+.cftv-bg {
+  width: 100%;
+  min-height: 100vh;
+  position: relative;
+
+  /* Imagem utilizada como background */
+  background-image:
+    linear-gradient(
+      90deg,
+      rgba(0, 0, 0, 0.78) 0%,
+      rgba(182, 159, 159, 0.58) 40%,
+      rgba(0, 0, 0, 0.35) 70%,
+      rgba(0, 0, 0, 0.5) 100%
+    ),
+    url("/assets/img/bg-cftv-cta.webp");
+
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+}
+.contact-bg h2 {
+  color: #eb5d1e;
+  text-decoration: underline;
+}
+.contact-bg .section-title p {
+  color: #eee;
+}
+@media screen and (max-width: 768px) {
+  .information {
+    flex-wrap: wrap;
+  }
 }
