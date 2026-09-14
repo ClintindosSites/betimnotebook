@@ -245,7 +245,7 @@ h6,
   left: -260px;
   width: 260px;
   padding-top: 18px;
-  background: #4e4039;
+  background: #fff;
   transition: 0.4s;
 }
 
@@ -258,7 +258,7 @@ h6,
 .mobile-nav a {
   display: block;
   position: relative;
-  color: #f9d1c0;
+  color: #ed3c0d;
   padding: 10px 20px;
   font-weight: 500;
   transition: 0.3s;
@@ -335,7 +335,7 @@ h6,
   top: 0;
   left: 0;
   position: fixed;
-  background: rgba(78, 64, 57, 0.9);
+  background: rgba(218, 151, 118, 0.9);
   overflow: hidden;
   display: none;
 }
