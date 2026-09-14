@@ -1,0 +1,375 @@
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	scrollbar-face-color: #ebe9e9;
+	scrollbar-highlight-color: #ebe9e9;
+	scrollbar-shadow-color: #ebe9e9;
+	scrollbar-3dlight-color: #0B2254;
+	scrollbar-arrow-color: #0B2254;
+	scrollbar-darkshadow-color: #0B2254;
+	scrollbar-track-color: #ffffff;
+	font: Bold 11px Verdana,Arial;
+	background-color: #F5F5F5;
+	}
+
+/* ---------------------- TABLE ---------------------- */
+
+table.table-meio {
+	background-color: #6080B5;
+	border: 1px solid #0B2254;
+}
+table.table-bar-tit {
+	background-image: url(../img/footDeg.gif);
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 8pt;
+	color: #666666;
+	text-decoration: none;
+	font-weight: bold;
+	height: 20px;
+	padding-left: 10px;
+	text-transform: uppercase;
+}
+table.table-bar-tit-aba1 {
+	background-image: url(../img/backMenuAba1.gif);
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 8pt;
+	color: #666666;
+	text-decoration: none;
+	font-weight: bold;
+	height: 20px;
+	padding-left: 10px;
+}
+table.table-bar-tit-aba2 {
+	background-image: url(../img/backMenuAba2.gif);
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 8pt;
+	color: #666666;
+	text-decoration: none;
+	font-weight: bold;
+	height: 20px;
+	padding-left: 10px;
+}
+table.table-content-int {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 8pt;
+	color: #000000;
+	text-decoration: none;
+	padding: 10px;
+	width: 605px;
+}
+
+table.table-content-main {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 8pt;
+	color: #000000;
+	text-decoration: none;
+	padding: 10px;
+	width: 805px;
+}
+
+table.table-list {
+	padding: 0px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 8pt;
+	color: #000000;
+	text-decoration: none;
+	width: 100%;
+}
+
+
+table.table-list-scroll {
+	
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 7pt;
+	color: #FFFFFF;
+	text-decoration: none;
+	white-space: nowrap;
+	font-weight: bold;
+	height: 20px;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+table.table-bar-base {
+	background-image: url(../img/footDeg.gif);
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 8pt;
+	color: #666666;
+	text-decoration: none;
+}
+table.table-msn-ok {
+  text-align: center;
+  padding: 8px;
+  border: 1px solid #003399;
+  background-color: #ECF5FF;
+  -moz-border-radius: 9px;
+}
+table.table-msn-erro {
+  text-align: center;
+  padding: 8px;
+  border: 1px solid #CC0000;
+  background-color: #FFECEC;
+  -moz-border-radius: 9px;
+}
+table.table-msn-erroExcecoes {
+  color:#CCCCCC;
+  text-align: center;
+  padding: 8px;
+  border: 1px solid #CCCCCC;
+  background-color: #EBEBEB;
+  -moz-border-radius: 9px;
+}
+table.table-content-tab {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 8pt;
+	color: #000000;
+	text-decoration: none;
+	border: 1px solid #6080B5;
+	background-color: #A7CBF1;
+}
+
+/* ---------------------- FIM TABLE ---------------------- */
+
+
+/* ---------------------- TD ---------------------- */
+
+th.td_grid {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 7pt;
+	color: #FFFFFF;
+	text-decoration: none;
+	background-color: #6080B5;
+	white-space: nowrap;
+	font-weight: bold;
+	height: 20px;
+	text-transform: uppercase;
+}
+tr.td_grid1 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 7pt;
+	color: #000000;
+	text-decoration: none;
+	background-color: #A7CBF1;
+	height: 20px;
+	text-transform: uppercase;
+}
+tr.td_grid2 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 7pt;
+	color: #000000;
+	text-decoration: none;
+	background-color: #FFFFFF;
+	height: 20px;
+	text-transform: uppercase;
+}
+td.td-grid-hover {
+	color: #FFFFFF;
+	background-color: #6080B5;
+	cursor: hand;
+	font-size: 7pt;
+	height: 20px;
+	text-transform: uppercase;
+}
+td.td-barra-menu {
+	background-image: url(../img/headDeg.jpg);
+}
+td.td-marrom {
+	background-color : #0B2254;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 8pt;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+
+td.td-main {
+	background-color : #6080B5;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 8pt;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+td.td-detalhe {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 7pt;
+	color: #000000;
+	text-decoration: none;
+}
+
+
+/* ---------------------- FIM TD ---------------------- */
+
+
+/* ---------------------- BUTTON ---------------------- */
+
+button.button-bt {
+	font-family: Tahoma, Arial, Verdana;
+	font-size: 8pt;
+	color: #000000;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+button.button-bt-barr {
+	font-family: Tahoma, Arial, Verdana;
+	font-size: 7pt;
+	color: #FFFFFF;
+	text-decoration: none;
+	width: 150px;
+	text-transform: uppercase;
+	background-image: url(../img/headDeg.jpg);
+	font-weight: bold;
+	cursor: hand;
+	background-color:#999999;
+}
+input.button-func {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 7pt;
+	color: #FFFFFF;
+	text-decoration: none;
+	width: 120px;
+	height: 22px;
+	cursor: hand;
+	background-color: #6080B5;
+	font-weight: bold;
+	text-transform: uppercase;
+	background-image: url(../img/back_tab_menu.gif);
+}
+
+/* ---------------------- FIM BUTTON ---------------------- */
+
+
+/* ---------------------- FORM ---------------------- */
+
+input.input-form {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 8pt;
+	text-decoration: none;
+	color: #894343;
+	text-transform:uppercase;
+}
+
+input.input-form-low {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 8pt;
+	text-decoration: none;
+	color: #894343;
+}
+
+input.input-cmp-barr {
+	font-family: Tahoma, Arial, Verdana;
+	font-size: 7pt;
+	color: #894343;
+	text-decoration: none;
+	text-transform:uppercase;
+}
+select.select-form {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 8pt;
+	text-decoration: none;
+	color: #894343;
+	text-transform:uppercase;
+}
+textarea.textarea-form {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 8pt;
+	text-decoration: none;
+	color: #894343;
+	text-transform:uppercase;
+}
+
+/* ---------------------- FIM FORM ---------------------- */
+
+
+/* ---------------------- FONTS ---------------------- */
+
+a:hover {
+	text-decoration: underline;
+}
+a.a-menu-ft7-verdana-branco {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: #FFFFFF;
+	font-size: 7pt;
+	text-decoration: none;
+}
+a.a-menu-ft7-verdana {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: #666666;
+	font-size: 7pt;
+	text-decoration: none;
+}
+.ft7-verdana-branca {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 7pt;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+.ft7-verdana {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 7pt;
+	color: #000000;
+	text-decoration: none;
+}
+.ft7-verdana-bold {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 7pt;
+	color: #000000;
+	text-decoration: none;
+	font-weight: bold;
+}
+.ft7-verdana-azul-link {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 7pt;
+	color: #003366;
+	text-decoration: underline;
+}
+.ft8-verdana {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 8pt;
+	color: #000000;
+	text-decoration: none;
+}
+
+.ft6-verdana {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 6pt;
+	color: #000000;
+	text-decoration: none;
+}
+
+.ft5-verdana {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 5pt;
+	color: #000000;
+	text-decoration: none;
+}
+
+.ft8-verdana-branca {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 8pt;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+.ft8-verdana-azul {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 8pt;
+	color: #006699;
+	text-decoration: none;
+}
+.ft13-verdana-branca {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 13pt;
+	color: #FFFFFF;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+/* ---------------------- FIM FONTS ---------------------- */
+
+
+
+.img_class {
+  border: 0px;
+}
